@@ -1,9 +1,8 @@
 {
   "nginx": {
     "port" : 80,
-    "message" : "Hello World!"
   },
   "run_list":[
-    "nginx"
+    "devtools"
   ]
 }
