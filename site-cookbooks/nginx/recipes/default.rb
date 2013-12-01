@@ -24,3 +24,12 @@ template "nginx.conf" do
   mode 0644
   notifies :reload, 'service[nginx]'
 end
+
+cookbook_file "cookbook_test" do
+  path "/tmp/cookbook_test.txt"
+  source "cookbook_test.txt"
+  owner "root"
+  group "root"
+  mode 0644
+  checksum "5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03"
+end
