@@ -26,3 +26,11 @@ end
 package "texlive-lang-cjk" do
   action :install
 end
+
+package "texlive-latex-recommended" do
+  action :install
+end
+
+package "texlive-fonts-recommended" do
+  action :install
+end
