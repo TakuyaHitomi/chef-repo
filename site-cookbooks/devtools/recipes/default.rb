@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-tools = ["build-essential", "vim", "git"]
+tools = ["build-essential", "vim", "git", "screen"]
 
 tools.each do |tool|
   package tool do
