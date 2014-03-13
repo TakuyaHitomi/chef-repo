@@ -38,3 +38,7 @@ end
 package "texlive-math-extra" do
   action :install
 end
+
+package "texlive-extra-utils" do
+  action :install
+end
