@@ -34,3 +34,7 @@ end
 package "texlive-fonts-recommended" do
   action :install
 end
+
+package "texlive-math-extra" do
+  action :install
+end
