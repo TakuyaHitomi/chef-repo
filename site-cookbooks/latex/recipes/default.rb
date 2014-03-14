@@ -42,3 +42,7 @@ end
 package "texlive-extra-utils" do
   action :install
 end
+
+package "gv" do
+  action :install
+end
