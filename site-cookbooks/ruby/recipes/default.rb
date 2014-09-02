@@ -42,6 +42,6 @@ template "/etc/profile.d/rbenv.sh" do
   mode 0644
 end
 
-package "sqlite-devel" do
+package "sqlite3" do
   action :install
 end
