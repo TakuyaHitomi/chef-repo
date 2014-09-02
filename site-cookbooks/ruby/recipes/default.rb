@@ -53,3 +53,7 @@ execute "ruby change" do
   command "source /etc/profile.d/rbenv.sh; rbenv global #{node.build};rbenv rehash"
   action :run
 end
+
+package "sqlite-devel" do
+  action :install
+end
